@@ -1,0 +1,163 @@
+/* webstudio */
+
+:root{
+--primary-text-color:#757575;
+--title-text-color: #212121; 
+--accent-color: #2196F3;
+--primary-white-color: #FFFFFF;
+--primary-bg-color:#FFFFFF;
+--secondary-bg-color:#2F303A;
+--secondary-white-color:#F5F4FA;
+}
+
+body{
+    background-color:var(--primary-bg-color);
+    color: var(--primary-text-color)  ;
+    font-family:Roboto,sans-serif;}
+
+.list{
+    list-style:none;
+}
+/* Основной Цвет Серый #757575 */
+/* Вторичный Цвет #212121  */
+/* Белый #FFFFFF */
+/* Вторичный белый #F5F4FA */
+/* Акценты #2196F3  */
+   
+/* header */
+
+.page-header{
+    
+}
+/* logo */
+.header-logo {
+color: #000000;
+}
+
+.header-logo:hover, .header-logo:focus{
+    color:var(--accent-color);
+}
+
+.header-logo-color{
+    color: var(--accent-color);
+    
+}
+
+/* site-nav */
+
+.site-nav .header-link{
+    color:var(--title-text-color) ;
+    text-decoration: none;
+
+}
+
+.site-nav .header-link:hover, .site-nav .header-link:focus {
+    color:var(--accent-color) ;
+}
+
+/*header-contacts */
+
+.header-contacts .header-link{
+color:var(--title-text-color);
+text-decoration: none;
+}
+
+.header-contacts .header-link:hover, .header-contacts .header-link:focus{
+    color:var(--accent-color); 
+}
+
+/* hero */
+
+.hero{
+    background-color:var(--secondary-bg-color) ;
+}
+
+.hero-title{
+    color:var(--primary-white-color) ;
+}
+
+.button {
+    color: var(--title-text-color);
+    background-color:var(--secondary-white-color);
+    cursor: pointer;
+}
+
+.button:hover,.button:focus{
+    color:var(--secondary-white-color);
+    background-color: var(--accent-color);
+}
+
+/* features */
+.features{
+
+}
+
+.features-title{
+    color: var(--title-text-color);
+}
+
+.features-text{
+
+}
+
+/* activites */
+.activites{
+
+}
+
+.activites-title{
+    color: var(--title-text-color);
+}
+
+/* crew */
+
+.crew{
+background-color:var(--secondary-white-color) ;
+}
+
+.crew-title{
+    color:var(--title-text-color) ;
+}
+
+.crew-text{
+
+}
+
+/* footer */
+
+.page-footer{
+    background-color: var(--secondary-bg-color);
+}
+
+.footer-logo{
+    color: var(--primary-white-color);
+    text-decoration: none;
+}
+
+.footer-logo:hover,.footer-logo:focus{
+    color: var(--accent-color);
+}
+
+.footer-logo-color{
+    color: var(--accent-color);
+}
+
+.footer-adress{
+    color: var(--primary-white-color);
+    text-decoration: none;
+}
+
+.footer-adress:hover, .footer-adress:focus{
+    color: var(--accent-color);
+}
+
+.footer-link{
+    color: rgba(255, 255, 255,0.6) ;
+    text-decoration: none;
+    
+}
+
+.footer-link:hover, .footer-link:focus{
+    color: var(--accent-color);
+    
+}
