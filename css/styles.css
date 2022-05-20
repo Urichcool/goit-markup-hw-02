@@ -27,11 +27,17 @@ body{
 /* header */
 
 .page-header{
-    
+    background-color: var(--primary-bg-color);
 }
 /* logo */
 .header-logo {
 color: #000000;
+text-decoration: none;
+font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height:1.2;
+letter-spacing: 0.03em;
 }
 
 .header-logo:hover, .header-logo:focus{
@@ -48,7 +54,9 @@ color: #000000;
 .site-nav .header-link{
     color:var(--title-text-color) ;
     text-decoration: none;
-
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
 }
 
 .site-nav .header-link:hover, .site-nav .header-link:focus {
@@ -58,8 +66,12 @@ color: #000000;
 /*header-contacts */
 
 .header-contacts .header-link{
-color:var(--title-text-color);
+color:var(--primary-text-color);
 text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+
 }
 
 .header-contacts .header-link:hover, .header-contacts .header-link:focus{
@@ -74,39 +86,53 @@ text-decoration: none;
 
 .hero-title{
     color:var(--primary-white-color) ;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
 }
 
-.button {
+.hero-button {
     color: var(--title-text-color);
     background-color:var(--secondary-white-color);
     cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
 }
 
-.button:hover,.button:focus{
+.hero-button:hover,.hero-button:focus{
     color:var(--secondary-white-color);
     background-color: var(--accent-color);
 }
 
 /* features */
 .features{
-
+background-color: var(--primary-bg-color);
 }
 
 .features-title{
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
 }
 
 .features-text{
-
+color: var(--primary-text-color);
+font-size: 14px;
+line-height: 1.7;
 }
 
 /* activites */
 .activites{
-
+background-color:var(--primary-bg-color);
 }
 
 .activites-title{
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
 }
 
 /* crew */
@@ -116,11 +142,16 @@ background-color:var(--secondary-white-color) ;
 }
 
 .crew-title{
-    color:var(--title-text-color) ;
+    color:var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
 }
 
 .crew-text{
-
+color: var(--primary-text-color);
+font-size: 16px;
+line-height: 1.2;
 }
 
 /* footer */
@@ -132,6 +163,10 @@ background-color:var(--secondary-white-color) ;
 .footer-logo{
     color: var(--primary-white-color);
     text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 }
 
 .footer-logo:hover,.footer-logo:focus{
@@ -145,6 +180,9 @@ background-color:var(--secondary-white-color) ;
 .footer-adress{
     color: var(--primary-white-color);
     text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .footer-adress:hover, .footer-adress:focus{
@@ -154,6 +192,8 @@ background-color:var(--secondary-white-color) ;
 .footer-link{
     color: rgba(255, 255, 255,0.6) ;
     text-decoration: none;
+    font-size: 14px;
+    line-height: 1.7;
     
 }
 
