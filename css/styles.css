@@ -201,3 +201,32 @@ line-height: 1.2;
     color: var(--accent-color);
     
 }
+
+
+/* Portfolio */
+
+.examples-button{
+    color: var(--title-text-color);
+    background-color:var(--secondary-white-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.examples-button:hover,.examples-button:focus{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.examples-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.examples-text{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.9;
+}
